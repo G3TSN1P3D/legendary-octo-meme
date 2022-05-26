@@ -2,7 +2,7 @@
 const path = require('path');
 const inquirer = require('inquirer');
 const fs = require('fs');
-const createReadMeFormat = require('createReadMeFormat');
+const createReadMeFormat = require('./createReadMeFormat');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -10,6 +10,11 @@ const questions = [
         type: 'input',
         name: 'title',
         message: `what's your project's title?: `
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Please provide a brief description: '
     },
     {
         type: 'input',
@@ -65,7 +70,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt([questions]).then((data) => {
+    inquirer.prompt(questions).then((data) => {
         console.log("README.md created successfully!")
         writeToFile("README.md", createReadMeFormat({ ...data }));
     })
