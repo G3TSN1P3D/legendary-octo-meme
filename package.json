@@ -1,0 +1,26 @@
+{
+  "name": "legendary-octo-meme",
+  "version": "1.0.0",
+  "description": "challenge 09, readme creator!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G3TSN1P3D/legendary-octo-meme.git"
+  },
+  "keywords": [
+    "README",
+    "NODE.js"
+  ],
+  "author": "G3TSN1P3D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/G3TSN1P3D/legendary-octo-meme/issues"
+  },
+  "homepage": "https://github.com/G3TSN1P3D/legendary-octo-meme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
