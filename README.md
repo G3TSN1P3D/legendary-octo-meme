@@ -23,7 +23,7 @@
     
     ## Usage
     
-    Rum node index.js
+    Run node index.js
     
     ## Credits
     
