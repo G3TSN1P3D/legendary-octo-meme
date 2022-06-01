@@ -1,6 +1,5 @@
-
 function createReadMeFormat(data) {
-    return `
+  return `
     # ${data.title}
 
     ## Description
@@ -18,6 +17,8 @@ function createReadMeFormat(data) {
     - [Usage](#usage)
     - [Credits](#credits)
     - [License](#license)
+    - [Features](#features)
+    - [How to Contribute](#contribute)
     
     ## Installation
     
@@ -41,9 +42,9 @@ function createReadMeFormat(data) {
     
     ## How to Contribute
     
-    [legendary-octo-meme](https://github.com/G3TSN1P3D/legendary-octo-meme)
+    [${data.title}](https://github.com/G3TSN1P3D/${data.title})
     
-    `
+    `;
 }
 
 module.exports = createReadMeFormat;
