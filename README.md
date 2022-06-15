@@ -1,44 +1,46 @@
 
-    # legendary-octo-meme
+# super-pancake
 
-    ## Description
-    
-    This is my README generator and this README file was created using it.
+## Description
 
-    - My motivation was based in the fact that I normally don't make a good README file
-    - I build this project because I wanted to get a better understanding of README files and to get a little bit better ar node.js and javascript
-    - It solves the need of hard typing README files, so it makes it a lot more easy 
-    - I learnt how to make quality READMEs and a better understanding of 'inquirer' and the file system as well
-        
-    ## Table of Content 
+This is a team profile generator developed using node.js and javascript as its main languages
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+
+- My motivation to start this project was to be able to understand a lot more about node, js and other node module featurs.
+- I built this project because it can make it a lot simpler for someone to create their team's profile when you just enter their info and the rest is done by the computer.
+- This solves the issue of having to create a full web app from scratch just to display your teams's profiles.
+- I learnt a lot more about inquirer, testing and inquirer-loop.
     
-    ## Installation
+## Table of Content 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Features](#features)
+- [How to Contribute](#contribute)
+
+## Installation
+
+To install the required node modules just run the following command: npm install. And that should do it.
+
+## Usage
+
+You use this app by running the command: node index. And if you wanna run the tests just do: npm run test.
+
+## Credits
+
+G3TSN1P3D
+
+## License
+
+MIT License
     
-    To install you should first run npm init just to make sure, then run npm install -y to install all needed modules
-    
-    ## Usage
-    
-    Run node index.js
-    
-    ## Credits
-    
-    G3TSN1P3D
-    
-    ## License
-    
-    MIT License
-        
-    ## Features
-    
-    Inquirer
-    
-    ## How to Contribute
-    
-    [legendary-octo-meme](https://github.com/G3TSN1P3D/legendary-octo-meme) 
-    
-    
+## Features
+
+The features this project has are: inquirer, inquirer-loop and jest.
+
+## How to Contribute
+
+[super-pancake](https://github.com/G3TSN1P3D/super-pancake)
+
